@@ -57,7 +57,20 @@ git clone https://github.com/cyberspacedk/Git-commands.git
 git clone https://github.com/cyberspacedk/Git-commands.git FolderName 
 
 # клонировать репозиторий в текущую директорию
-git clone https://github.com:nicothin/web-design.git .     
+git clone https://github.com:nicothin/web-design.git .   
+
+# Пример:
+$ git clone git@github.com:ifireiceya/MyFirstRepo.git
+Cloning into 'MyFirstRepo'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (4/4), done.
+
+Переходим в новый каталог, где теперь лежит копия нашего проекта с GitHub:
+
+$ cd MyFirstRepo
 
 ## Синхронизация репозитория-форка с мастер-репозиторием
 
